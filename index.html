@@ -16,6 +16,7 @@
 	var coord
 	navigator.geolocation.getCurrentPosition();
 	coord = "longitude: " + position.coords.longitude + "; latitude: " + position.coords.latitude + ";";
+	document.write(coord);
 	
     <a-scene
         vr-mode-ui="enabled: false"
