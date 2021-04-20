@@ -2,14 +2,19 @@
 <html>
 <body>
 
-<p>Click the button to get your coordinates.</p>
+<p>Click the button your coordinates.</p>
+<p id="demo"></p>
 
 <script>
+var x = document.getElementById("demo");
 var coord;
 
 navigator.geolocation.getCurrentPosition();
 coord = "longitude: " + position.coords.longitude + "; latitude: " + position.coords.latitude + ";";
 document.write(coord);
+function showPosition(position) {
+  x.innerHTML = coord;
+}
 </script>
 
 </body>
