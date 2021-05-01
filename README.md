@@ -1,7 +1,7 @@
 # ar-geolocation-html
 AR geolocation - html
 
-AR Gelocation Project
+AR Geolocation Project
 
 I like 🚲 🇨🇴 🎧 🚵
 
