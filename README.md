@@ -1,5 +1,5 @@
-# ar-geolocation
-AR geolocation
+# ar-geolocation-html
+AR geolocation - html
 
 AR Gelocation Project
 
